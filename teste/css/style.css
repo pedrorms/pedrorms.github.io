@@ -35,8 +35,8 @@ div.card {
   width: 80%;
   border-radius: 50%;
 }
-.card-icon a {
-  color: #eee;
+.card-icons a {
+  color: #ddd;
   margin-right: 1rem;
   text-decoration: none;
   font-size: 32px;
