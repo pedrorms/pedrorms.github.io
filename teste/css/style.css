@@ -43,8 +43,11 @@ div.card {
 }
 
 /* CORES */
-.icons{
+.icons {
   color: #e6e6e6;
+}
+.github-hover:hover {
+  color: #000;
 }
 .linkedin-hover:hover {
   color: #0077B5;
