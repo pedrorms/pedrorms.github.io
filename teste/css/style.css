@@ -43,8 +43,8 @@ div.card {
 }
 
 /* CORES */
-.icons {
-  color: #eee;
+.card-icon {
+  color: #ddd;
 }
 .github-hover:hover {
   color: #000;
