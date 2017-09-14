@@ -35,17 +35,14 @@ div.card {
   width: 80%;
   border-radius: 50%;
 }
-.card-icons a {
-  color: #000;
+.card-icon a {
+  color: #e6e6e6;
   margin-right: 1rem;
   text-decoration: none;
   font-size: 32px;
 }
 
 /* CORES */
-.card-icon {
-  color: #ddd;
-}
 .github-hover:hover {
   color: #000;
 }
