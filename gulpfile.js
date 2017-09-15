@@ -6,6 +6,8 @@ let cssmin = require('gulp-cssmin');
 let pug = require('gulp-pug');
 let stylus = require('gulp-stylus');
 
+gulp.task('default', ['imagemin', 'pug', 'stylus', 'usemin', 'fonts']);
+
 gulp.task('fonts', () => {
   gulp
     .src('node_modules/font-awesome/fonts/fontawesome-*')
@@ -42,5 +44,3 @@ gulp.task('usemin', () => {
     }))
     .pipe(gulp.dest('./'));
 });
-
-gulp.task('default', ['imagemin', 'pug', 'stylus', 'usemin']);
